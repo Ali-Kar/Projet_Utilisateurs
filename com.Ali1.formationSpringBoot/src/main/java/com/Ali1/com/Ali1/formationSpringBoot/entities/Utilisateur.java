@@ -30,6 +30,6 @@ public class Utilisateur implements Serializable {
 
     @OneToMany(cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REMOVE}, fetch = FetchType.EAGER)
     private Set<Adresse> adresses;
-
+// bon//
 
 }
